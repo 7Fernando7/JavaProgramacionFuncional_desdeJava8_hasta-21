@@ -9,8 +9,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/generico/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/generico/Employee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/generico/EmployeeDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/generico/Product.java" afterDir="false" />
@@ -20,7 +18,8 @@
       <change afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/PostgresDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fundamentals.interfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals.interfaces.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/interfaces/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/generico/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
