@@ -16,7 +16,7 @@
       <change afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/DatabaseServices.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/MongoDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/PostgresDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/AppGenericLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/LambdasScope.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Math.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Printer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/lambdas/cicloFor/AppLambda.java" afterDir="false" />
@@ -73,20 +73,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppLambda">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.interfaces.App" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.generico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LambdasScope">
     <configuration name="AppGenericLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.lambdas.AppGenericLambda" />
       <module name="fundamentals.interfaces" />
@@ -126,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdasScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.lambdas.LambdasScope" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="fundamentals.generico.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.generico.App" />
       <module name="fundamentals.interfaces" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdasScope" />
         <item itemvalue="Application.AppLambda" />
         <item itemvalue="Application.AppGenericLambda" />
         <item itemvalue="Application.LambdaApp" />
         <item itemvalue="Application.fundamentals.generico.App" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
