@@ -16,3 +16,11 @@ public class ObjectMethodReference {
         System.out.println(numbers);
     }
 }
+
+/** Referencias a Métodos
+ * Un referencia es una funcionalidad de Java 8+ que puede sustituir a una expresión Lambda cuya única instrucción
+ * consiste en la llamada a un método.
+ *
+ * El  compilador infiere las variables dadas por el parametro en el argumento del método.
+ *
+ * **/

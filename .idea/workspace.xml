@@ -20,10 +20,11 @@
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Math.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Printer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/lambdas/cicloFor/AppLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/reference_methods/ObjectMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/reference_methods/StaticMethodReference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fundamentals.interfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals.interfaces.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/reference_methods/ObjectMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/reference_methods/ObjectMethodReference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fundamentals/temp/LambdaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/temp/LambdaApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectMethodReference">
+  <component name="RunManager" selected="Application.StaticMethodReference">
     <configuration name="AppGenericLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.lambdas.AppGenericLambda" />
       <module name="fundamentals.interfaces" />
@@ -94,19 +95,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fundamentals.lambdas.lambdas.cicloFor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.temp.LambdaApp" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StaticMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.reference_methods.StaticMethodReference" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.reference_methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticMethodReference" />
         <item itemvalue="Application.ObjectMethodReference" />
         <item itemvalue="Application.LambdasScope" />
         <item itemvalue="Application.AppLambda" />
         <item itemvalue="Application.AppGenericLambda" />
-        <item itemvalue="Application.LambdaApp" />
       </list>
     </recent_temporary>
   </component>
