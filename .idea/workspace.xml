@@ -20,6 +20,7 @@
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Math.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Printer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/lambdas/cicloFor/AppLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/reference_methods/ArbitraryMethodReference.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/reference_methods/ConstructorMethodReference.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/reference_methods/StaticMethodReference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -76,13 +77,13 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructorMethodReference">
-    <configuration name="AppLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.lambdas.lambdas.cicloFor.AppLambda" />
+  <component name="RunManager" selected="Application.ArbitraryMethodReference">
+    <configuration name="ArbitraryMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.reference_methods.ArbitraryMethodReference" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.lambdas.lambdas.cicloFor.*" />
+          <option name="PATTERN" value="fundamentals.reference_methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArbitraryMethodReference" />
         <item itemvalue="Application.ConstructorMethodReference" />
         <item itemvalue="Application.StaticMethodReference" />
         <item itemvalue="Application.ObjectMethodReference" />
         <item itemvalue="Application.LambdasScope" />
-        <item itemvalue="Application.AppLambda" />
       </list>
     </recent_temporary>
   </component>
