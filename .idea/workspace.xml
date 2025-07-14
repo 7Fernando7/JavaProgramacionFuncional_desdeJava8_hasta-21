@@ -16,11 +16,13 @@
       <change afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/DatabaseServices.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/MongoDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fundamentals/interfaces/PostgresDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/temp/LambdaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/temp/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/AppGenericLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/lambdas/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fundamentals.interfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals.interfaces.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentals/temp/LambdaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundamentals/temp/LambdaApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,9 @@
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2zjnNEklGB3G2QnNB7Z0BgYmoW6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,8 +68,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fundamentals.generico" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fundamentals.temp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaApp">
+  <component name="RunManager" selected="Application.AppGenericLambda">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.interfaces.App" />
       <module name="fundamentals.interfaces" />
@@ -79,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppGenericLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.lambdas.AppGenericLambda" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.temp.LambdaApp" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.temp.*" />
+          <option name="PATTERN" value="fundamentals.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppGenericLambda" />
         <item itemvalue="Application.LambdaApp" />
         <item itemvalue="Application.fundamentals.generico.App" />
         <item itemvalue="Application.App" />

@@ -1,5 +1,7 @@
 package fundamentals.temp;
 
+import fundamentals.lambdas.Math;
+
 public class LambdaApp {
 
     public static void main(String[] args) {
