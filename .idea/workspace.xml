@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleFunction1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleFunction2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleFunction1">
+  <component name="RunManager" selected="Application.ExampleFunction2">
     <configuration name="ArbitraryMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.reference_methods.ArbitraryMethodReference" />
       <module name="fundamentals.interfaces" />
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.reference_methods.ObjectMethodReference" />
+    <configuration name="ExampleFunction2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleFunction2" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.reference_methods.*" />
+          <option name="PATTERN" value="fundamentals.util_function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleFunction2" />
         <item itemvalue="Application.ExampleFunction1" />
         <item itemvalue="Application.ArbitraryMethodReference" />
         <item itemvalue="Application.ConstructorMethodReference" />
         <item itemvalue="Application.StaticMethodReference" />
-        <item itemvalue="Application.ObjectMethodReference" />
       </list>
     </recent_temporary>
   </component>
