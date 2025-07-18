@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExamplePredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleBiPredicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +58,13 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExamplePredicate">
-    <configuration name="ArbitraryMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.reference_methods.ArbitraryMethodReference" />
+  <component name="RunManager" selected="Application.ExampleBiPredicate">
+    <configuration name="ExampleBiFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBiFunction" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.reference_methods.*" />
+          <option name="PATTERN" value="fundamentals.util_function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleBiFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBiFunction" />
+    <configuration name="ExampleBiPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBiPredicate" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleBiPredicate" />
         <item itemvalue="Application.ExamplePredicate" />
         <item itemvalue="Application.ExampleBiFunction" />
         <item itemvalue="Application.ExampleFunction2" />
         <item itemvalue="Application.ExampleFunction1" />
-        <item itemvalue="Application.ArbitraryMethodReference" />
       </list>
     </recent_temporary>
   </component>
