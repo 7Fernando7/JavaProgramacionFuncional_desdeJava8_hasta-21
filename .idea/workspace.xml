@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleUnaryOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,20 +59,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleSupplier">
-    <configuration name="ExampleBiFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBiFunction" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.util_function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ExampleUnaryOperator">
     <configuration name="ExampleBiPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBiPredicate" />
       <module name="fundamentals.interfaces" />
@@ -125,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleUnaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleUnaryOperator" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.util_function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleUnaryOperator" />
         <item itemvalue="Application.ExampleSupplier" />
         <item itemvalue="Application.ExampleConsumer" />
         <item itemvalue="Application.ExampleBiPredicate" />
         <item itemvalue="Application.ExamplePredicate" />
-        <item itemvalue="Application.ExampleBiFunction" />
       </list>
     </recent_temporary>
   </component>
