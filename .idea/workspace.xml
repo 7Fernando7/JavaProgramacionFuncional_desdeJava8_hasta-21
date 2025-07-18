@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleUnaryOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleBinaryOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleUnaryOperator">
+  <component name="RunManager" selected="Application.ExampleBinaryOperator">
     <configuration name="ExampleBiPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBiPredicate" />
       <module name="fundamentals.interfaces" />
@@ -73,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleConsumer" />
+    <configuration name="ExampleBinaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBinaryOperator" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamplePredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExamplePredicate" />
+    <configuration name="ExampleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleConsumer" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleBinaryOperator" />
         <item itemvalue="Application.ExampleUnaryOperator" />
         <item itemvalue="Application.ExampleSupplier" />
         <item itemvalue="Application.ExampleConsumer" />
         <item itemvalue="Application.ExampleBiPredicate" />
-        <item itemvalue="Application.ExamplePredicate" />
       </list>
     </recent_temporary>
   </component>
