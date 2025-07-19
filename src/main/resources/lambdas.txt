@@ -2,3 +2,11 @@ Las funciones lambdas es un término adoptado de la programación funcional y co
 Que no normalmente son anónimas y se escriben en línea allí donde se usan.
 
 Como cualquier función recibe cero o más argumentos y devulven uno o ningún valor de retorno.
+
+Que és un Stream?
+
+Es un objeto que permite realizar de forma sencilla operaciones de busqueda, filtrado, recolección, y otras operaciones
+sobre una colección de datos.
+
+Un Stream recorre todos los elementos de colección y durante el proceso realiza alguna operación. Una vez terminada la ejecución
+el stream se cierra y no se puede volver utilizar.
