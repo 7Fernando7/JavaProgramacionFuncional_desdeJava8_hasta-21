@@ -9,6 +9,7 @@ fundamentals\util_function\ExamplePredicate.class
 fundamentals\App.class
 fundamentals\real_applications\Product$ProductBuilder.class
 fundamentals\reference_methods\ObjectMethodReference.class
+fundamentals\real_applications\ComparatorLambdas.class
 fundamentals\temp\LambdaApp.class
 fundamentals\real_applications\Strategies.class
 fundamentals\util_function\ExampleSupplier.class
@@ -35,6 +36,7 @@ fundamentals\real_applications\Product.class
 fundamentals\generico\ProductDB.class
 fundamentals\generico\EmployeeDB.class
 fundamentals\real_applications\ApplyDiscountStrategy.class
+fundamentals\real_applications\Person.class
 fundamentals\util_function\ExampleFunction2.class
 fundamentals\reference_methods\ConstructorMethodReference.class
 fundamentals\util_function\MyProduct.class
