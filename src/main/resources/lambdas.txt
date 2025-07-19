@@ -1,0 +1,4 @@
+Las funciones lambdas es un término adoptado de la programación funcional y corresponden con funciones de Java
+Que no normalmente son anónimas y se escriben en línea allí donde se usan.
+
+Como cualquier función recibe cero o más argumentos y devulven uno o ningún valor de retorno.

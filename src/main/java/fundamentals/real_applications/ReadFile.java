@@ -10,7 +10,7 @@ public class ReadFile {
 
     public static void main(String[] args) {
 
-        Path file = Paths.get("src/resources/lambdas.txt");
+        Path file = Paths.get("src\\main\\resources\\lambdas.txt");
 
         try(Stream<String> lines = Files.lines(file).onClose(()-> System.out.println("Closing read"))){
 
