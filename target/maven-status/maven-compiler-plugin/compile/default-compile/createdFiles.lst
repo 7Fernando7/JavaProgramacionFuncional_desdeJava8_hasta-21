@@ -7,8 +7,10 @@ fundamentals\interfaces\DatabaseServices.class
 fundamentals\temp\LambdaApp$1.class
 fundamentals\util_function\ExamplePredicate.class
 fundamentals\App.class
+fundamentals\real_applications\Product$ProductBuilder.class
 fundamentals\reference_methods\ObjectMethodReference.class
 fundamentals\temp\LambdaApp.class
+fundamentals\real_applications\Strategies.class
 fundamentals\util_function\ExampleSupplier.class
 fundamentals\generico\DatabaseService.class
 fundamentals\lambdas\Printer.class
@@ -20,6 +22,7 @@ fundamentals\real_applications\ReadFile.class
 fundamentals\util_function\ExampleBiFunction.class
 fundamentals\lambdas\lambdas\cicloFor\AppLambda.class
 fundamentals\temp\Math.class
+fundamentals\real_applications\StrategyLambdas.class
 fundamentals\lambdas\AppGenericLambda.class
 fundamentals\util_function\ExampleConsumer.class
 fundamentals\util_function\Person.class
@@ -28,8 +31,10 @@ fundamentals\util_function\ExampleBiPredicate.class
 fundamentals\util_function\ExampleBinaryOperator.class
 fundamentals\interfaces\PostgresDB.class
 fundamentals\util_function\ExampleUnaryOperator.class
+fundamentals\real_applications\Product.class
 fundamentals\generico\ProductDB.class
 fundamentals\generico\EmployeeDB.class
+fundamentals\real_applications\ApplyDiscountStrategy.class
 fundamentals\util_function\ExampleFunction2.class
 fundamentals\reference_methods\ConstructorMethodReference.class
 fundamentals\util_function\MyProduct.class

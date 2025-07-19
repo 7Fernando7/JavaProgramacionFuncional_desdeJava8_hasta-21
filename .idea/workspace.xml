@@ -5,47 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/generico/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/generico/DatabaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/generico/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/EmployeeDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/generico/EmployeeDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/generico/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/generico/ProductDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/generico/ProductDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/interfaces/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/interfaces/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/interfaces/DatabaseServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/interfaces/DatabaseServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/interfaces/MongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/interfaces/MongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/interfaces/PostgresDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/interfaces/PostgresDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/lambdas/AppGenericLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/lambdas/AppGenericLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/lambdas/LambdasScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/lambdas/LambdasScope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/lambdas/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/lambdas/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/lambdas/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/lambdas/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/lambdas/lambdas/cicloFor/AppLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/lambdas/lambdas/cicloFor/AppLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/real_applications/ConcurrenceLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/real_applications/ConcurrenceLambdas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/real_applications/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/real_applications/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/reference_methods/ArbitraryMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/reference_methods/ArbitraryMethodReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/reference_methods/ConstructorMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/reference_methods/ConstructorMethodReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/reference_methods/ObjectMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/reference_methods/ObjectMethodReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/reference_methods/StaticMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/reference_methods/StaticMethodReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/temp/LambdaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/temp/LambdaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/temp/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/temp/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleBiFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleBiFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleBiPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleBiPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleBinaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleBinaryOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleFunction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleFunction1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleFunction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleFunction2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExamplePredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExamplePredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleSupplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentals/util_function/ExampleUnaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util_function/ExampleUnaryOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/lambdas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lambdas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/real_applications/StrategyLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/real_applications/StrategyLambdas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,62 +67,11 @@
       <recent name="C:\Users\Fernando\Desktop\JAVA11_21\fundamentals.interfaces\src\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fundamentals.real_applications" />
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.App" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppGenericLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.lambdas.AppGenericLambda" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcurrenceLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ConcurrenceLambdas" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.real_applications.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleSupplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleSupplier" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.util_function.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StrategyLambdas">
     <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ReadFile" />
       <module name="fundamentals.interfaces" />
@@ -174,13 +85,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyLambdas (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.StrategyLambdas" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.real_applications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyLambdas (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.StrategyLambdas" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.real_applications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyLambdas (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.StrategyLambdas" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.real_applications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.StrategyLambdas" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.real_applications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyLambdas" />
         <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.ConcurrenceLambdas" />
-        <item itemvalue="Application.AppGenericLambda" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.ExampleSupplier" />
+        <item itemvalue="Application.StrategyLambdas (2)" />
+        <item itemvalue="Application.StrategyLambdas (4)" />
+        <item itemvalue="Application.StrategyLambdas (3)" />
       </list>
     </recent_temporary>
   </component>
