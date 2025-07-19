@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentals/real_applications/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/lambdas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentals/real_applications/ConcurrenceLambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,13 +63,13 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
-    <configuration name="ExampleBinaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBinaryOperator" />
+  <component name="RunManager" selected="Application.ConcurrenceLambdas">
+    <configuration name="ConcurrenceLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ConcurrenceLambdas" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.util_function.*" />
+          <option name="PATTERN" value="fundamentals.real_applications.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleConsumer" />
+    <configuration name="ExampleBinaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.util_function.ExampleBinaryOperator" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrenceLambdas" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.ExampleBinaryOperator" />
         <item itemvalue="Application.ExampleUnaryOperator" />
         <item itemvalue="Application.ExampleSupplier" />
-        <item itemvalue="Application.ExampleConsumer" />
       </list>
     </recent_temporary>
   </component>
