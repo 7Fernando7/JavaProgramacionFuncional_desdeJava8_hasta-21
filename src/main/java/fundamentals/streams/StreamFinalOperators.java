@@ -3,6 +3,7 @@ package fundamentals.streams;
 import fundamentals.util.Database;
 import fundamentals.util.Videogame;
 
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class StreamFinalOperators {
@@ -15,7 +16,9 @@ public class StreamFinalOperators {
        //forEachOperator(videogames);
         //anyMatchOperator(videogames);
         //allMatchOperator(videogames);
-        noneMatchOperator(videogames);
+        //noneMatchOperator(videogames);
+        //findFirstOperator(videogames);
+        findAnyOperator(videogames);
     }
 
     static void countOperator(Stream<Videogame> stream){
@@ -41,6 +44,16 @@ public class StreamFinalOperators {
     static void noneMatchOperator(Stream<Videogame> stream){
         boolean r = stream.noneMatch(v  -> v.getReviews().isEmpty());
 
+        System.out.println(r);
+    }
+
+    static void findFirstOperator(Stream<Videogame> stream){
+        Optional<Videogame> r = stream.findFirst();
+        System.out.println(r);
+    }
+
+    static void findAnyOperator(Stream<Videogame> stream){
+        Optional<Videogame> r = stream.findFirst();
         System.out.println(r);
     }
 
