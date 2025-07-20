@@ -3,6 +3,7 @@ package fundamentals.streams;
 import fundamentals.util.Database;
 import fundamentals.util.Videogame;
 
+import java.util.Comparator;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -19,7 +20,9 @@ public class StreamFinalOperators {
         //noneMatchOperator(videogames);
         //findFirstOperator(videogames);
         //findAnyOperator(videogames);
-        reduceOperator(videogames);
+        //reduceOperator(videogames);
+        //maxOperator(videogames);
+        minOperator(videogames);
     }
 
     static void countOperator(Stream<Videogame> stream){
@@ -65,5 +68,15 @@ public class StreamFinalOperators {
                 .reduce(Integer::sum);
 
         System.out.println(r);
+    }
+
+    static void maxOperator(Stream<Videogame> stream){
+        Optional<Videogame> r = stream.max(Comparator.comparing(Videogame::getName));
+        System.out.println(r.get().getName());
+    }
+
+    static void minOperator(Stream<Videogame> stream){
+        Optional<Videogame> r = stream.min(Comparator.comparing(Videogame::getName));
+        System.out.println(r.get().getName());
     }
 }
