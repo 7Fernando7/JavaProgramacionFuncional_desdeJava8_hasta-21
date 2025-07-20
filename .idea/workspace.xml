@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/ConstructorsStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/BasicVideoGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/GameConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Videogame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lambdas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lambdas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lambdas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lambdas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +28,7 @@
         <option value="Interface" />
         <option value="AnnotationType" />
         <option value="package-info" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +64,8 @@
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +82,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
+  <component name="RunManager" selected="Application.ConstructorsStreams">
     <configuration name="ComparatorLambdas (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ComparatorLambdas" />
       <module name="fundamentals.interfaces" />
@@ -110,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ComparatorLambdas" />
+    <configuration name="ConstructorsStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.ConstructorsStreams" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.real_applications.*" />
+          <option name="PATTERN" value="fundamentals.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructorsStreams" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.ComparatorLambdas (3)" />
         <item itemvalue="Application.ComparatorLambdas (2)" />
         <item itemvalue="Application.ComparatorLambdas (1)" />
-        <item itemvalue="Application.ComparatorLambdas" />
       </list>
     </recent_temporary>
   </component>
