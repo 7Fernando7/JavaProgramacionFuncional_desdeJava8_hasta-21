@@ -14,6 +14,7 @@ fundamentals\util_function\ExampleConsumer.class
 fundamentals\util_function\Person.class
 fundamentals\util_function\ExampleBiPredicate.class
 fundamentals\util_function\ExampleBinaryOperator.class
+fundamentals\streams\StreamFinalOperators.class
 fundamentals\generico\ProductDB.class
 fundamentals\util\GameConsole.class
 fundamentals\reference_methods\ConstructorMethodReference.class
