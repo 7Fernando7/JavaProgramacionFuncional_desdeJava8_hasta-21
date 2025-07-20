@@ -18,7 +18,8 @@ public class StreamFinalOperators {
         //allMatchOperator(videogames);
         //noneMatchOperator(videogames);
         //findFirstOperator(videogames);
-        findAnyOperator(videogames);
+        //findAnyOperator(videogames);
+        reduceOperator(videogames);
     }
 
     static void countOperator(Stream<Videogame> stream){
@@ -57,6 +58,12 @@ public class StreamFinalOperators {
         System.out.println(r);
     }
 
+    static void reduceOperator(Stream<Videogame> stream){
+        Optional<Integer> r = stream
+                .filter(Videogame::getIsDiscount)
+                .map(Videogame::getTotalSold)
+                .reduce(Integer::sum);
 
-
+        System.out.println(r);
+    }
 }
