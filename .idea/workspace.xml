@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/util/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/util/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/util/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/util/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/util/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/util/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

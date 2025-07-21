@@ -13,7 +13,8 @@ public class StreamIntermediateOperators {
 
         //distinctOperator(videogames);
         //limitOperator(videogames);
-        skipOperator(videogames);
+        //skipOperator(videogames);
+        filterOperator(videogames);
 
     }
 
@@ -32,5 +33,16 @@ public class StreamIntermediateOperators {
 
         r.forEach(System.out::println);
     }
+
+    static void filterOperator(Stream<Videogame> stream ){
+        List<Videogame> r = stream
+                .filter( v-> v.getPrice() > 30.0)
+                .filter(v -> !v.getIsDiscount())
+                .filter(v -> v.getOfficialWebsite().contains("forza"))
+                .collect(Collectors.toList());
+
+       r.forEach(System.out::println);
+        };
+
 
 }
