@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamFinalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamFinalOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/util/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/util/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/util/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/util/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/util/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/util/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +79,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamFinalOperators">
-    <configuration name="ComparatorLambdas (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ComparatorLambdas" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.real_applications.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamIntermediateOperators">
     <configuration name="ComparatorLambdas (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ComparatorLambdas" />
       <module name="fundamentals.interfaces" />
@@ -138,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamIntermediateOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.StreamIntermediateOperators" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamIntermediateOperators" />
         <item itemvalue="Application.StreamFinalOperators" />
         <item itemvalue="Application.ConstructorsStreams" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.ComparatorLambdas (3)" />
-        <item itemvalue="Application.ComparatorLambdas (2)" />
       </list>
     </recent_temporary>
   </component>

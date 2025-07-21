@@ -98,13 +98,17 @@ public class Database {
                         .totalSold(188)
                         .build(),
                 Videogame.builder()
-                        .name("Forza horizon 4")
-                        .price(10.06)
-                        .console(GameConsole.ALL)
-                        .reviews(Collections.emptyList())
+                        .name("Forza horizon 5")
+                        .price(50.06)
+                        .console(GameConsole.XBOX)
+                        .reviews(List.of(
+                                new Review("Is the best", 5),
+                                new Review("Is the best but expensive", 4),
+                                new Review("Is the best x2", 5)
+                        ))
                         .officialWebsite("www.forza.com")
                         .isDiscount(false)
-                        .totalSold(52)
+                        .totalSold(74)
                         .build(),
                 Videogame.builder()
                         .name("The last of us")
@@ -132,7 +136,7 @@ public class Database {
                         .totalSold(79)
                         .build(),
                 Videogame.builder()
-                        .name("Halo")
+                        .name("Forza horizon 5")
                         .price(50.06)
                         .console(GameConsole.PLAYSTATION)
                         .reviews(List.of(new Review("Is the best", 4)))
