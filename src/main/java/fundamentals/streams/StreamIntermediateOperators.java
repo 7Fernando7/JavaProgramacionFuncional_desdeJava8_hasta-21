@@ -2,6 +2,7 @@ package fundamentals.streams;
 
 import fundamentals.util.BasicVideoGame;
 import fundamentals.util.Database;
+import fundamentals.util.Review;
 import fundamentals.util.Videogame;
 
 import java.util.List;
@@ -16,7 +17,8 @@ public class StreamIntermediateOperators {
         //limitOperator(videogames);
         //skipOperator(videogames);
         //filterOperator(videogames);
-        mapOperator(videogames);
+        //mapOperator(videogames);
+        flatMapOperator(videogames);
 
     }
 
@@ -63,4 +65,13 @@ public class StreamIntermediateOperators {
         System.out.println("------");
         titles.forEach(System.out::println);
     };
+
+    static void flatMapOperator(Stream<Videogame> stream) {
+        List<Review> r = stream
+                .flatMap(v -> v.getReviews().stream())
+                .collect(Collectors.toList());
+
+        System.out.println(r);
+    }
+
 }
