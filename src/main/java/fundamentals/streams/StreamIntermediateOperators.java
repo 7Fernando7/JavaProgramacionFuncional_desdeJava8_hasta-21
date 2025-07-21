@@ -1,5 +1,6 @@
 package fundamentals.streams;
 
+import fundamentals.util.BasicVideoGame;
 import fundamentals.util.Database;
 import fundamentals.util.Videogame;
 
@@ -14,7 +15,8 @@ public class StreamIntermediateOperators {
         //distinctOperator(videogames);
         //limitOperator(videogames);
         //skipOperator(videogames);
-        filterOperator(videogames);
+        //filterOperator(videogames);
+        mapOperator(videogames);
 
     }
 
@@ -44,5 +46,21 @@ public class StreamIntermediateOperators {
        r.forEach(System.out::println);
         };
 
+    static void mapOperator(Stream<Videogame> stream ){
+        List<BasicVideoGame> basicVideoGameList = stream
+                .map(v -> {
+                   return BasicVideoGame.builder()
+                           .name(v.getName())
+                           .price(v.getPrice())
+                           .console(v.getConsole())
+                           .build();
+                }).collect(Collectors.toList());
 
+
+        List<String> titles = basicVideoGameList.stream().map(BasicVideoGame::getName).collect(Collectors.toList());
+        basicVideoGameList.forEach(System.out::println);
+
+        System.out.println("------");
+        titles.forEach(System.out::println);
+    };
 }
