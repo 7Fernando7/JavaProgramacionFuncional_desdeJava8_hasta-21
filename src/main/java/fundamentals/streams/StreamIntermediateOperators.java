@@ -22,7 +22,10 @@ public class StreamIntermediateOperators {
         //flatMapOperator(videogames);
         //mapVsFlatMapOperator(videogames);
         //peekMapOperator(videogames);
-        sortOperator(videogames);
+        //sortOperator(videogames);
+        //takeWhileOperator(videogames);
+        dropWhileOperator(videogames);
+
 
     }
 
@@ -106,6 +109,26 @@ public class StreamIntermediateOperators {
 
         listSorted.forEach(System.out::println);
     }
+    static void takeWhileOperator(Stream<Videogame> stream) {
+
+        List<Videogame> r = stream
+                .sorted(Comparator.comparing(Videogame::getName))
+                .takeWhile(v -> !v.getName().startsWith("M"))
+                .collect(Collectors.toList());
+
+        r.forEach(System.out::println);
+    }
+
+    static void dropWhileOperator(Stream<Videogame> stream) {
+
+        List<Videogame> r = stream
+                .sorted(Comparator.comparing(Videogame::getName))
+                .dropWhile(v -> !v.getName().startsWith("M"))
+                .collect(Collectors.toList());
+
+        r.forEach(System.out::println);
+    }
+
 
 }
 
