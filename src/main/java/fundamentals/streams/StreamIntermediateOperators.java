@@ -19,7 +19,8 @@ public class StreamIntermediateOperators {
         //filterOperator(videogames);
         //mapOperator(videogames);
         //flatMapOperator(videogames);
-        mapVsFlatMapOperator(videogames);
+        //mapVsFlatMapOperator(videogames);
+        peekMapOperator(videogames);
 
     }
 
@@ -82,4 +83,18 @@ public class StreamIntermediateOperators {
         System.out.println(totalReviews);
     }
 
+    /** Aplanamos el resultado y tratamos la lista de lista como se fuese una sola lista, está es la diferencia. **/
+
+    static void peekMapOperator(Stream<Videogame> stream) {
+
+
+        stream.peek(v -> v.setName("A")).forEach(System.out::println);
+
+        /** Peek y forEach
+         * Peek es un operador intermedio, regresa otro strem igual para seguir con el pipeline.
+         * Peek con Collect.toList() que es un operador final si funciona.
+         * **/
+    }
+
 }
+
