@@ -18,7 +18,8 @@ public class StreamIntermediateOperators {
         //skipOperator(videogames);
         //filterOperator(videogames);
         //mapOperator(videogames);
-        flatMapOperator(videogames);
+        //flatMapOperator(videogames);
+        mapVsFlatMapOperator(videogames);
 
     }
 
@@ -72,6 +73,13 @@ public class StreamIntermediateOperators {
                 .collect(Collectors.toList());
 
         System.out.println(r);
+    }
+
+    static void mapVsFlatMapOperator(Stream<Videogame> stream) {
+        //var totalReviwes = stream.map( v -> v.getReviews().size()).collect(Collectors.toList());
+
+       Long totalReviews = stream.flatMap(v -> v.getReviews().stream()).count();
+        System.out.println(totalReviews);
     }
 
 }
