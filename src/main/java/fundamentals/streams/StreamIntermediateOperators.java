@@ -5,6 +5,7 @@ import fundamentals.util.Database;
 import fundamentals.util.Review;
 import fundamentals.util.Videogame;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -20,7 +21,8 @@ public class StreamIntermediateOperators {
         //mapOperator(videogames);
         //flatMapOperator(videogames);
         //mapVsFlatMapOperator(videogames);
-        peekMapOperator(videogames);
+        //peekMapOperator(videogames);
+        sortOperator(videogames);
 
     }
 
@@ -88,12 +90,21 @@ public class StreamIntermediateOperators {
     static void peekMapOperator(Stream<Videogame> stream) {
 
 
-        stream.peek(v -> v.setName("A")).forEach(System.out::println);
+        stream.peek(v -> v.setName("")).forEach(System.out::println);
 
         /** Peek y forEach
          * Peek es un operador intermedio, regresa otro strem igual para seguir con el pipeline.
          * Peek con Collect.toList() que es un operador final si funciona.
          * **/
+    }
+
+    static void sortOperator(Stream<Videogame> stream) {
+
+        List<Videogame> listSorted = stream
+                .sorted(Comparator.comparingInt(v -> v.getReviews().size()))
+                .collect(Collectors.toList());
+
+        listSorted.forEach(System.out::println);
     }
 
 }
