@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/ExerciseLambdas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/streams/StreamIntermediateOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/streams/StreamIntermediateOperators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Fernando/Desktop/JAVA11_21/JavaProgramacionFuncional_desdeJava8_hasta-21",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fernando/Desktop/JAVA11_21/JavaProgramacionFuncional_desdeJava8_hasta-21&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fundamentals.generico" />
@@ -72,22 +79,9 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamIntermediateOperators">
-    <configuration name="ComparatorLambdas (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ComparatorLambdas" />
-      <module name="fundamentals.interfaces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentals.real_applications.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstructorsStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.ConstructorsStreams" />
+  <component name="RunManager" selected="Application.fundamentals.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.App" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
@@ -99,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.real_applications.ReadFile" />
+    <configuration name="ExerciseLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.ExerciseLambdas" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.real_applications.*" />
+          <option name="PATTERN" value="fundamentals.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fundamentals.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.App" />
+      <module name="fundamentals.interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fundamentals.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ExerciseLambdas" />
         <item itemvalue="Application.StreamIntermediateOperators" />
         <item itemvalue="Application.StreamFinalOperators" />
-        <item itemvalue="Application.ConstructorsStreams" />
-        <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.ComparatorLambdas (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -158,5 +165,21 @@
       <updated>1752253309882</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fundamentals/util_function/App.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fundamentals/App.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

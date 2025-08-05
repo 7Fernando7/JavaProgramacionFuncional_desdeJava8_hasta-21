@@ -38,6 +38,7 @@ fundamentals\util_function\ExampleFunction1.class
 fundamentals\streams\ConstructorsStreams.class
 fundamentals\real_applications\ConcurrenceLambdas.class
 fundamentals\streams\StreamIntermediateOperators.class
+fundamentals\streams\ExerciseLambdas.class
 fundamentals\util_function\ExampleBiFunction.class
 fundamentals\lambdas\lambdas\cicloFor\AppLambda.class
 fundamentals\temp\Math.class

@@ -53,9 +53,10 @@ public class StreamIntermediateOperators {
                 .collect(Collectors.toList());
 
        r.forEach(System.out::println);
-        };
+    };
 
     static void mapOperator(Stream<Videogame> stream ){
+
         List<BasicVideoGame> basicVideoGameList = stream
                 .map(v -> {
                    return BasicVideoGame.builder()

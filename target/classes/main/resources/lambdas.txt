@@ -1,0 +1,83 @@
+Las funciones lambdas es un término adoptado de la programación funcional y corresponden con funciones de Java
+Que no normalmente son anónimas y se escriben en línea allí donde se usan.
+
+Como cualquier función recibe cero o más argumentos y devulven uno o ningún valor de retorno.
+
+Que és un Stream?
+
+Es un objeto que permite realizar de forma sencilla operaciones de busqueda, filtrado, recolección, y otras operaciones
+sobre una colección de datos.
+
+Un Stream recorre todos los elementos de colección y durante el proceso realiza alguna operación. Una vez terminada la ejecución
+el stream se cierra y no se puede volver utilizar.
+
+Como se crea un stream?
+
+Cualquier objeto de la colección de APICollection de Java.
+
+Stream<Integer> myStream = anyCollection.Stream();
+
+Stream<Integer> myStream = Arrays.Stream(AnyArray);
+
+Stream<Integer> myStream = Stream.of(1,2,3);
+
+IntStream myStream = IntStream.range(1, 10);
+
+Métodos finales
+
+count(): Nos regresa el número total de elementos del Stream.
+
+forEach(Consume <? extends T> Consumer): Realiza una acción para cada elemento.
+
+reduce(BinaryOperator<? super T> accomulator): Realiza la reducción de todos los elementos del stream a un solo elemento.
+
+max(comparator<? super T> comparator) Regresa el mayor elemento encontrado en base al comparador pasado por parámetro.
+
+min(comparator<? super T> comparator) Regresa el menor elemento encontrado en base al comparador pasado por parámetro.
+
+findFirst(): Regresa el primer elemento del stream en un objeto tipo Optional.
+
+findAny(): Regresa un elemento aleatorio del stream en un objeto tipo Optional.
+
+anyMatch(Predicate<? super T> predicate): Regresa true si encuentra un elemento que coincida con el predicado.
+
+allMatch(Predicate<? super T> predicate): Regresa true si todos los elementos coinciden con el predicado.
+
+nomeMatch(Predicate<? super T> predicate): Regresa true si ninguno de los elementos coinciden con el predicado.
+
+Métodos Intermedios
+
+distinct(): Regresa un nuevo stream, eliminando los repetidos.
+
+limit(long n): Regresa un nuevo stream con los primeros elementos pasados por parametro.
+
+skip(long n): Regresa un nuevo stream a partir de elementos pasados por parametro.
+
+peek(Consumer <? extends T> Consumer): Realiza una acción para cada elemento y regresa un nuevo stream identico para continuar
+con el pipeline.
+
+sorted(Comparator <? extends T> Comparator): Ordena los elementos en base al comparador pasado por parametro, en caso de no pasar
+ningún comparador los elementos se ordenan por el orden natural.
+
+filter(Predicate<? super T> predicate): Regresa los elementos del stream que cumplan la condición del predicado pasado por parametro.
+
+map(Function <? super T> mapper): Se usa para crear un nuevo objeto haciendo alguna operación o mapeo con cada elemento del Stream.
+
+flatMap(Function<T, stream<R> mapper): Esta operación es una extensión de la operación map(), esta función se aplica a cada elemento
+del Stream y genera un stream de nuevos valores. (Primero aplica la función de mapeo y luego aplana el resultado.
+
+takeWhile(Predicate <? super T> predicate): Regresa un stream con todos los elementos anteriores al elemento que cumpla el predicado.
+(Se recomienda ordenar el stream antes de aplicar esta función).
+
+dropWhile(Predicate <? super T> predicate): Regresa un stream con todos los elementos posteriores al elemento que cumpla el predicado.
+(Se recomienda ordenar el stream antes de aplicar esta función).
+
+Pepiline
+
+Consiste en una cadena de procesos conectados de forma tal que la salida de cada elemento de la cadena es la entrada del próximo.
+Permite la comunicación y sincronización entre procesos. Es común el uso de búfer de datos entre elementos consecutivos.
+
+collection.stream()
+    .filter()
+    .map()
+    .forEach()
