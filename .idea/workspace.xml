@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/ExerciseLambdas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/collectors/CollectorsToCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/StreamIntermediateOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/streams/StreamIntermediateOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/streams/StreamIntermediateOperators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fundamentals.App">
+  <component name="RunManager" selected="Application.CollectorsToCollection">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.streams.App" />
       <module name="fundamentals.interfaces" />
@@ -93,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.ExerciseLambdas" />
+    <configuration name="CollectorsToCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.collectors.CollectorsToCollection" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentals.streams.*" />
+          <option name="PATTERN" value="fundamentals.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamFinalOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.StreamFinalOperators" />
+    <configuration name="ExerciseLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.streams.ExerciseLambdas" />
       <module name="fundamentals.interfaces" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectorsToCollection" />
         <item itemvalue="Application.fundamentals.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.ExerciseLambdas" />
         <item itemvalue="Application.StreamIntermediateOperators" />
-        <item itemvalue="Application.StreamFinalOperators" />
       </list>
     </recent_temporary>
   </component>
