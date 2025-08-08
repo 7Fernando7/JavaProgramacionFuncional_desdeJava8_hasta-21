@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8d435a-892e-4a2c-aaf9-2a5fb8bf9eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/collectors/CollectorsToCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/streams/ExerciseLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/streams/ExerciseLambdas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/util/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/util/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/streams/ExerciseLambdas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/streams/ExerciseLambdas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/util/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/util/Database.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
       <recent name="fundamentals.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectorsToCollection">
+  <component name="RunManager" selected="Application.ExerciseLambdas">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.streams.App" />
       <module name="fundamentals.interfaces" />
@@ -141,10 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciseLambdas" />
         <item itemvalue="Application.CollectorsToCollection" />
         <item itemvalue="Application.fundamentals.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.ExerciseLambdas" />
         <item itemvalue="Application.StreamIntermediateOperators" />
       </list>
     </recent_temporary>

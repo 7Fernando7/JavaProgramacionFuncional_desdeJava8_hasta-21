@@ -2,8 +2,10 @@ package fundamentals.streams;
 
 import fundamentals.util.*;
 
+import java.io.Console;
 import java.util.Comparator;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 public class ExerciseLambdas {
@@ -11,11 +13,11 @@ public class ExerciseLambdas {
         public static void main(String[] args) {
             Stream<Videogame> videogames = Database.videogames.stream();
 
-            //exercise1(videogames);
-            //exercise2(videogames);
-            //exercise3(videogames);
-            //exercise4(videogames);
-            exercise5(videogames);
+            //System.out.println(exercise1(videogames));
+            //exercise2(videogames).forEach(System.out::println);
+            //System.out.println(exercise3(videogames).getTotalSold());
+            //exercise4(videogames).forEach(System.out::println);
+            exercise5(videogames).forEach(System.out::println);
         }
 
         /*
@@ -23,15 +25,8 @@ public class ExerciseLambdas {
          * y no este en descuento o su precio sea mayor a 9.99 de lo contrario regresar false.
          */
         static Boolean exercise1(Stream<Videogame> stream) {
-            List<Videogame> r = stream
-                    .filter( v-> v.getTotalSold() > 10)
-                    .filter(v -> !v.getIsDiscount())
-                    .filter(v -> v.getPrice() > 9.99)
-                    .collect(Collectors.toList());
+            return stream.anyMatch(v -> v.getTotalSold() > 10 && (!v.getIsDiscount() || v.getPrice() > 9.99 ));
 
-            r.forEach(System.out::println);
-
-            return null;
         }
 
         /*
@@ -39,19 +34,12 @@ public class ExerciseLambdas {
          * durante el proceso imprimir los resultados ignorando los repetidos.
          */
         static Stream<String> exercise2(Stream<Videogame> stream)  {
-            List<BasicVideoGame> basicVideoGameList = stream
-                    .filter(v -> v.getConsole() == GameConsole.XBOX)
-                    .map(v -> BasicVideoGame.builder()
-                            .name(v.getName())
-                            .console(v.getConsole())  // No uses compareTo
-                            .build())
-                    .collect(Collectors.toList());
 
-
-            List<String> titles = basicVideoGameList.stream().map(BasicVideoGame::getName).collect(Collectors.toList());
-            basicVideoGameList.forEach(System.out::println);
-
-            return null;
+            return stream
+                    .distinct()
+                    .filter(v -> v.getConsole().equals(GameConsole.XBOX))
+                    .peek(v -> System.out.println("Process: " + v))
+                    .map(Videogame::getName);
         }
 
 
@@ -61,17 +49,10 @@ public class ExerciseLambdas {
          */
         static Videogame exercise3(Stream<Videogame> stream) {
 
-
-            List<Videogame> r = stream
-                    .filter( v-> v.getTotalSold() > 3)
-                    .sorted(Comparator.comparing(Videogame::getName))
-                    .takeWhile(v -> !v.getName().startsWith("G"))
-                    .collect(Collectors.toList());
-
-            r.forEach(System.out::println);
-
-            return null;
-
+            return stream
+                    .limit(10)
+                    .max(Comparator.comparing(Videogame::getTotalSold))
+                    .orElseThrow(NoSuchElementException::new);
         }
 
         /*
@@ -80,24 +61,17 @@ public class ExerciseLambdas {
          */
         static Stream<String> exercise4(Stream<Videogame> stream) {
 
-            List<Review> r = stream
-                    .flatMap(v -> v.getReviews().stream())
-                    .collect(Collectors.toList());
-
-            System.out.println(r);
-            return null;
+            return stream
+                    .flatMap(v -> v.getReviews().stream().map(Review::getComment));
         }
 
         /*
          *Regresar un stream con los todos los videojuegos con precio menores a 20.0
          * sin utilizar el operador filter().
          */
-        static void exercise5(Stream<Videogame> stream) {
-            List<String> r = stream
-                    .flatMap(v -> v.getPrice() < 20.0 ? Stream.of(v) : Stream.empty())
-                    .map(Videogame::getName)
-                    .collect(Collectors.toList());
-
-            System.out.println(r);
+        static Stream<Double> exercise5(Stream<Videogame> stream) {
+            return stream.sorted(Comparator.comparing(Videogame::getPrice))
+                    .takeWhile(v -> v.getPrice() < 20.0)
+                    .map(Videogame::getPrice);
         }
 }

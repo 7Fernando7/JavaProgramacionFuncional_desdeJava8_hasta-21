@@ -113,7 +113,7 @@ public class Database {
                 Videogame.builder()
                         .name("The last of us")
                         .price(40.06)
-                        .console(GameConsole.PLAYSTATION)
+                        .console(GameConsole.XBOX)
                         .reviews(List.of(
                                 new Review("Is the best", 5),
                                 new Review("When launch the part 3???", 5)
